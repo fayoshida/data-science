@@ -1,8 +1,8 @@
 # Salários em Data Science (2019-2023)
 
-Notebook: https://tinyurl.com/y4jpk2es
+Notebook: [https://tinyurl.com/y4jpk2es](http://tinyurl.com/r9ehm32a)
 
-Dados: https://raw.githubusercontent.com/carlosfab/escola-data-science/master/datasets/acidentes_sp_clean.csv
+Dados: [https://raw.githubusercontent.com/carlosfab/escola-data-science/master/datasets/acidentes_sp_clean.csv](https://raw.githubusercontent.com/fayoshida/data-science/main/DS-Salaries/ds_salaries.csv)
 
 ## Objetivo
 Temos um dataset que contém dados de salário na carreira de ciência de dados e mais 11 features associadas a estes profissionais. Nosso objetivo é compreender as relações entre os diferentes atributos destes trabalhadores, especialmente no que pode definir a remuneração destes indíviduos.
