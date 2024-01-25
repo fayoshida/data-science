@@ -10,4 +10,4 @@ O objetivo deste repositório é reunir investigações estatísticas afim de en
 
 ### **Credit Scoring**
 
- [Nubank - Imbalanced Dataset (2019-2023)](https://github.com/fayoshida/data-science/tree/6a722a82616389d2362cf3f9810e392f5a59aa3b/Credit_Scoring_Imbalanced)
+ [Nubank - Imbalanced Dataset](https://github.com/fayoshida/data-science/tree/6a722a82616389d2362cf3f9810e392f5a59aa3b/Credit_Scoring_Imbalanced)
