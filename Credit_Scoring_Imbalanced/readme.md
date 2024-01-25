@@ -1,8 +1,8 @@
 # Salários em Data Science (2019-2023)
 
-Notebook: [https://tinyurl.com/y4jpk2es](http://tinyurl.com/r9ehm32a)
+Notebook: [Risco_de_Crédito_Nubank](http://tinyurl.com/r9ehm32a](https://raw.githubusercontent.com/fayoshida/data-science/main/Credit_Scoring_Imbalanced/Risco_de_Cr%C3%A9dito_Nubank.ipynb)
 
-Dados: [http://dl.dropboxusercontent.com/s/xn2a4kzf0zer0xu/acquisition_train.csv?dl=0](acquisition_train.csv)
+Dados: [acquisition_train.csv](http://dl.dropboxusercontent.com/s/xn2a4kzf0zer0xu/acquisition_train.csv?dl=0)
 
 ## Objetivo
 Temos um dataset que contém dados de salário na carreira de ciência de dados e mais 11 features associadas a estes profissionais. Nosso objetivo é compreender as relações entre os diferentes atributos destes trabalhadores, especialmente no que pode definir a remuneração destes indíviduos.
