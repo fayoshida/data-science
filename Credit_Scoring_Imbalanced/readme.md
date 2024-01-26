@@ -7,7 +7,7 @@ Dados: [acquisition_train.csv](http://dl.dropboxusercontent.com/s/xn2a4kzf0zer0x
 ## Objetivo
 Instituições pelo mundo têm incorporado o uso de modelos de machine learning para o aprimoramento de sua avaliação de risco. Neste contexto, temos uma base de dados da fintech Nubank que será utilizada para modelagem afim de predizer a probabilidade de default para seus clientes.
 
-**Palavras-chaves:** data science, data engineering, machine learning, credit scoring, default, imbalanced
+**Palavras-chaves:** data science, data engineering, machine learning, credit scoring, default, imbalanced dataset, sampling
 
 # Insights sobre as features.
 
@@ -44,9 +44,9 @@ Teremos então as seguintes features para o treinamento do modelo:
 ## Conclusão
 Apesar da numerosa quantidade de features disponíveis na base de dados, não foi possível obter mais informações sobre a sistemática de origem destes dados. Portanto para o treinamento do modelo temos um número reduzido de features.
 
-Na análise correlação com a variável target, não foram identificados correlações fortes ou até mesmo medianas, ressaltando a necessidade da inclusão de mais features para treinamento. Considerando estes fatos, não foi realizado o tuning dos hiperparâmetros nem o aprofundamento das features dropadas no início do estudo.
+Na análise correlação com a variável target, não foram identificados correlações fortes ou até mesmo medianas, ressaltando a necessidade da inclusão de mais features para treinamento. Considerando estes fatos, não foi realizado o tuning dos hiperparâmetros e nem o aprofundamento das features dropadas no início do estudo.
 
-Com relação aos problemas encontrados na amostra (desbalanceamento da variável target) foram testados dois métodos sendo eles: o UnderSampling que busca reduzir a amostra da classe majoritaria e o OverSampling que busca duplicar a amostra da classe minoritária.
+Com relação aos problemas encontrados na amostra (desbalanceamento da variável target) foram testados dois métodos sendo eles: o UnderSampling que busca reduzir a amostra da classe majoritaria e o OverSampling que busca duplicar a amostra da classe minoritária a fim de gerar uma amostra mais balanceada entre as classes.
 
 Foram obtidos resultados satisfatórios com relação ao modelo inicialmente proposto, tendo o KS e AUC aumentado consideravelmente.
 
