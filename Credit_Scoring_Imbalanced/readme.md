@@ -44,17 +44,21 @@ Teremos então as seguintes features para o treinamento do modelo:
 ## Conclusão
 Apesar da numerosa quantidade de features disponíveis na base de dados, não foi possível obter mais informações sobre a sistemática de origem destes dados. Portanto para o treinamento do modelo temos um número reduzido de features.
 
-Na análise correlação com a variável target, não foram identificados correlações fortes ou até mesmo medianas, ressaltando a necessidade da inclusão de mais features para treinamento. Considerando estes fatos, não foi realizado o tuning dos hiperparâmetros e nem o aprofundamento das features dropadas no início do estudo.
+Na análise de correlação com a variável target, não foram identificados correlações fortes ou até mesmo medianas, ressaltando a necessidade da inclusão de mais features para treinamento. Houve a tentativa de otimização dos hiperparâmetros proém não foram encontrdos melhoras signficativas nos scores.
 
-Com relação aos problemas encontrados na amostra (desbalanceamento da variável target) foram testados dois métodos sendo eles: o UnderSampling que busca reduzir a amostra da classe majoritaria e o OverSampling que busca duplicar a amostra da classe minoritária a fim de gerar uma amostra mais balanceada entre as classes.
+Com relação aos problemas encontrados na amostra (desbalanceamento da variável target) foram testados dois métodos sendo eles: o UnderSampling que busca reduzir a amostra da classe majoritaria e o OverSampling que busca duplicar a amostra da classe minoritária.
 
 Foram obtidos resultados satisfatórios com relação ao modelo inicialmente proposto, tendo o KS e AUC aumentado consideravelmente.
 
 * Desbalanceado<br>
-KS: 0.0215 - ROC AUC: 0.5108
+KS: 0.0635 - ROC AUC: 0.5032
 
 * UnderSampling<br>
-KS: 0.2486 - ROC AUC: 0.6243
+KS: 0.2389 - ROC AUC: 0.6195
 
 * OverSampling<br>
-KS: 0.2447 - ROC AUC: 0.6223
+KS: 0.2506 - ROC AUC: 0.6253
+
+Estudando as faixas de probabilidade geradas, podemos verificar uma grande proporção da amostra de "bons clientes" sendo marcados como "ruins", desta forma o negócio deixaria dinheiro na mesa. Foi proposto um novo ponto de corte que concede mais crédito (e consequentemente também para clientes que podem entrar em default) mas que mantém a proporção de crédito ruim na carteira da instituição financeira.
+
+
