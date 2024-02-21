@@ -1,8 +1,6 @@
 # Salários em Data Science (2019-2023)
 
-Notebook: [Risco_de_Crédito_Nubank](https://raw.githubusercontent.com/fayoshida/data-science/main/Credit_Scoring_Imbalanced/Risco_de_Cr%C3%A9dito_Nubank.ipynb)
-
-Dados: [acquisition_train.csv](http://dl.dropboxusercontent.com/s/xn2a4kzf0zer0xu/acquisition_train.csv?dl=0)
+Notebook: [IFood - Churn](https://raw.githubusercontent.com/fayoshida/data-science/main/Churn%20Prediction%20-%20IFood/IFood_Churn.ipynb)
 
 ## Objetivo
 Entender as principais características/comportamento de um cliente que podem levar a Churn (não voltar a comprar na plataforma). A solução proposta poderá ser utilizada para atuar sobre esses clientes com promoções, descontos ou melhorias na plataforma.
