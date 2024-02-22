@@ -11,22 +11,23 @@ Como a frequência de compras dos clientes do IFood é relativamente alta, o mod
 
 ## Features
 
-* `media_order_lead_at_login`: Tempo de entrega do pedido a contar do login no app.
-* `recencia`: Quantidade de dias desde o último pedido.
-* `media_order_lag_at_login`: Tempo até realizar o pedido a contar do login no app.
+* `media_order_lead_at_login`: Média mensal da diferença entre o dia de um pedido e o dia do próximo pedido.
+* `media_order_lag_at_login`: Média mensal da diferença entre o dia de um pedido e o dia do pedido anterior.
 * `soma_receita_1m`: Receita dos pedidos no período de 1 mês.
 * `qtd_pedidos_1m`: Quantidade de pedidos no período de 1 mês.
+* `media_qtd_item_normal`: Média da quantidade de itens não-promocionais.
+* `media_qtd_item_promo`: Média da quantidade de itens promocionais.
+* `media_credito_existente`: Média do valor total de desconto no pedido.
 
 ## Conclusão
-O objetivo proposto de identificar a probabilidade de churn de um cliente na plataforma foi satisfeito com o modelo proposto. Temos AUC que gira em torno de 85% ~ 90% indicando grande capacidade de diferenciação entre os grupos.
+O objetivo proposto de identificar a probabilidade de churn de um cliente na plataforma foi satisfeito com o modelo proposto. Temos AUC que gira em torno de 80% ~ 90% indicando grande capacidade de diferenciação entre os grupos.
 
-A variável `media_order_lead_at_login` foi identificada como feature com mais relevância conforme shap values do modelo, análise exploratória e correlações calculadas. Esta variável representa o tempo de entrega de um pedido apartir do login do cliente na plataforma, sendo assim diminuir o "lead time" é essencial para visitas frequentes dos clientes.
+A variável `media_order_lead_at_login` foi identificada como feature com mais relevância conforme shap values do modelo, análise exploratória e correlações calculadas. Esta variável representa a quantidade de dias entre os pedidos.
 
-Valores extremos desta feature impactam significativamente nas chances de Churn, portanto em casos onde haja imprevistos na confecção ou entrega do pedido, um suporte ágil e eficaz se faz necessário.
+Valores extremos desta feature impactam significativamente nas chances de Churn, portanto manter o cliente utilizando o app ou seja com promoções, cupons e notificações podem ser estratégias benéficas.
 
-As demais features do modelo estão em linha com o pressuposto, como no exemplo de `qtd_pedidos_1m` em que clientes que não fazem muitos pedidos podem ser churn no proximo período.
+Como esperado de `qtd_pedidos_1m`, clientes com mais pedidos podem retornar e clientes que não fazem muitos pedidos podem ser churn no proximo período. Talvez uma estratégia de cupons ou descontos pode encorajar o cliente a realizar mais pedidos.
 
-Sendo assim, concluímos que a experiência do cliente na plataforma pode ser explorada em duas frentes.
+`soma_receita_1m` indica que clientes que gastam mais tem menores probabilidade de Churn do que clientes que gastam valores mais elevados, que está em linha com a tendência de Churn estar atrelado a capacidade financeira dos clientes.
 
-1. Tempo de escolha de um pedido.
-2. Tempo de entrega do pedido.
+O presente projeto buscou explorar as características de comportamento dos clientes visando a probabilidade de Churn. As features mais significativas foram exatamente relacionadas a realização dos pedidos, portanto há alta correlação entre clientes que pedem muito e vão voltar a pedir. Para estudos futuros seria interessante integrar modelos de segmentação de clientes para a predição.
