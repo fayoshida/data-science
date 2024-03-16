@@ -10,8 +10,8 @@ O objetivo deste repositório é reunir investigações estatísticas afim de en
 
 ### **Churn Prediction**
 
-[IFood - Churn](https://github.com/fayoshida/data-science/tree/4acf5a482c4cbcda741fb0fcc616316b0c0ec2e5/Churn%20Prediction%20-%20IFood)
+[IFood - Churn](https://github.com/fayoshida/data-science/tree/e8257a3eac6da7bd6591f546b87a3795c0f0b99c/Churn%20Prediction%20-%20IFood)
 
 ### **Credit Scoring**
 
- [Nubank - Imbalanced Dataset](https://github.com/fayoshida/data-science/tree/6a722a82616389d2362cf3f9810e392f5a59aa3b/Credit_Scoring_Imbalanced)
+ [Nubank - Imbalanced Dataset](https://github.com/fayoshida/data-science/tree/e8257a3eac6da7bd6591f546b87a3795c0f0b99c/Credit_Scoring_Imbalanced)
