@@ -6,7 +6,7 @@ O objetivo deste repositório é reunir investigações estatísticas afim de en
 
 ### **Análise Exploratória de Dados**
 
- [Data Science Salaries (2019-2023)](https://github.com/fayoshida/data-science/tree/aacfb6c6906dd90a0c7cf473f6e3f19d5013ad6c/DS-Salaries)
+ [Data Science Salaries (2019-2023)](https://github.com/fayoshida/data-science/tree/bed4fd88a74edb1bb24771deae9562849f09ebd3/DS-Salaries)
 
 ### **Churn Prediction**
 
