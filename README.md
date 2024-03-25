@@ -10,7 +10,7 @@ O objetivo deste repositório é reunir investigações estatísticas afim de en
 
 ### **Churn Prediction**
 
-[IFood - Churn](https://github.com/fayoshida/data-science/tree/e8257a3eac6da7bd6591f546b87a3795c0f0b99c/Churn%20Prediction%20-%20IFood)
+[IFood - Churn](https://github.com/fayoshida/data-science/tree/f3b4005f65311c88a90868de2f8186edc5810148/Churn%20Prediction%20-%20IFood)
 
 ### **Credit Scoring**
 
