@@ -1,4 +1,4 @@
-# Salários em Data Science (2019-2023)
+# Churn Prediction - IFood
 
 Notebook: [IFood - Churn](https://raw.githubusercontent.com/fayoshida/data-science/main/Churn%20Prediction%20-%20IFood/IFood_Churn.ipynb)
 
