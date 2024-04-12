@@ -1,6 +1,6 @@
 # Loan Amount Prediction - Regressão
 
-Notebook: [Loan_Amount_Prediction](https://github.com/fayoshida/data-science/blob/a6e23c5c4016fa6bff6a1949329be6eeb6235b28/Loan_Amount_Predicton/Loan_Amount_Prediction.ipynb)
+Notebook: [Loan_Amount_Prediction](https://github.com/fayoshida/data-science/blob/main/Loan_Amount_Predicton/Loan_Amount_Prediction.ipynb)
 
 ## Objetivo
 Modelos de Machine Learning onde se busca calcular a probabilidade de default (credit score) são abundantes e envolvem problemas de classificação. No entanto decidir o valor a ser concedido é de suma importância nesta tomada de decisão, intuitivamente tenta-se adequar o valor SOLICITADO com as métricas de risco dos clientes, aprovando, negando ou reduzindo o valor solicitado. Este projeto busca identificar as características determinantes para o valor das concessões de crédito através de regressões lineares, em modelos de árvore e ensembles.
