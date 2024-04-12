@@ -1,7 +1,3 @@
-# **PROJETOS DE CIÊNCIA DE DADOS**
-
-O objetivo deste repositório é reunir investigações estatísticas afim de entender problemas do mundo real, através de inferências estatísticas, visualizações de gráficos, algoritmos de aprendizado de máquinas e extração de dados da web.
-
 ## **PROJETOS**
 
 ### **Análise Exploratória de Dados**
