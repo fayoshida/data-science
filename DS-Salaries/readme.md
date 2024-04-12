@@ -1,6 +1,6 @@
 # Salários em Data Science (2019-2023)
 
-Notebook: [https://tinyurl.com/y4jpk2es](http://tinyurl.com/r9ehm32a)
+Notebook: [DS_Salaries_EDA](https://github.com/fayoshida/data-science/blob/main/DS-Salaries/Data_Science_Salaries_EDA.ipynb)
 
 Dados: [https://raw.githubusercontent.com/carlosfab/escola-data-science/master/datasets/acidentes_sp_clean.csv](https://raw.githubusercontent.com/fayoshida/data-science/main/DS-Salaries/ds_salaries.csv)
 
